@@ -1,0 +1,144 @@
+/************************************************************************
+General
+************************************************************************/
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+    background-image: url("../images/geometry2.png");
+    background-size: cover;
+}
+
+h3{
+  text-align:right;
+  padding:0.5em;
+}
+
+h4{
+  text-align: center;
+}
+
+
+.wrap{
+  width:93%;
+  margin: 1em auto;
+}
+.row{
+  margin: 0;
+  max-width: none;
+}
+.orbit-container{
+  height: auto;
+  width: auto;
+}
+
+
+
+
+/************************************************************************
+Navigation
+************************************************************************/
+
+.images img{
+height:2em;
+width:2em;
+}
+.images{
+  width:60%;
+  margin: auto;
+  text-align: center;
+}
+.title-bar{
+  background-image: url("../images/brushed_alu_dark.png");}
+li{
+  color:black;
+  text-align: center;
+}
+h3{
+font-weight: bold;
+}
+a:link,a:visited{
+  color:black;
+}
+a:hover{
+  color:grey;
+}
+h4{
+  padding: 0.5em;
+}
+h4{
+font-family:sans-serif;
+}
+
+
+
+
+
+
+
+/************************************************************************
+Header
+************************************************************************/
+
+
+
+
+
+
+
+/************************************************************************
+Main
+************************************************************************/
+.main{
+  background-color: white;
+  background-image: url('../images/photography');
+  padding: 1em 2em;
+  height: 80vh;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.row img{
+  width:11em;
+  height:11em;
+}
+
+#selfie{
+  width: 30em;
+  height:30em;
+  padding:2em;
+}
+
+
+
+
+
+/************************************************************************
+Footer
+************************************************************************/
+.footer{
+  background-color: rgb(255, 229, 192);
+  background-image: url("../images/brushed_alu_dark.png");}
+h5{
+  text-align: center;
+}
+.footer img{
+  max-width: 2em;
+  max-height: 2em;
+}
+p{
+  text-align: center;
+  color:black;
+}
+.title-bar{
+  padding: 1.5em;
+  background-color: rgb(142, 146, 156)
+}
